@@ -90,7 +90,7 @@ def group_data(data, kind):
     return g_data
 
 # Load the dataset
-all_df = pd.read_csv('hour_df.csv')
+all_df = pd.read_csv('dashboard/hour_df.csv')
 all_df['date'] = pd.to_datetime(all_df['date'])
 
 # Sidebar settings
