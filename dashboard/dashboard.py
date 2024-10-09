@@ -94,7 +94,7 @@ all_df = pd.read_csv('dashboard/hour_df.csv')
 all_df['date'] = pd.to_datetime(all_df['date'])
 
 # Sidebar settings
-st.header('Analisis Dataset Bike Sharing :sparkles:')
+st.header('Bike Sharing Analysis :bike:')
 st.sidebar.image("https://github.com/dn-rmdn/logo_assets/blob/main/Bike%20Share.jpg?raw=true", width=300)
 min_date = all_df['date'].min().date()
 max_date = all_df['date'].max().date()
