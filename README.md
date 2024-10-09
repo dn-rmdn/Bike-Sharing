@@ -7,14 +7,14 @@ conda activate main-ds
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
 ```
 
-## Run steamlit app
+## Run streamlit app
 ```
 cd dashboard
 streamlit run dashboard.py
 ```
 
-## STtreamlit APP
-Buka App di [Link ini](https://dn-rmdn-bike-sharing.streamlit.app/).
-> [!TIP]
+## Streamlit app
+Open App [Here!](https://dn-rmdn-bike-sharing.streamlit.app/).
+> :eyes:
 > Preview App
-![image]()
+![image](https://github.com/dn-rmdn/logo_assets/blob/main/Screenshot_20241009_182141_Chrome.png?raw=true)
